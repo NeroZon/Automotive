@@ -1,0 +1,4 @@
+priority = priority 1
+grouping = (groups="smoke")
+skip = (enable = run ) & (enable = false)
+multiple time 1 method =  invocationcount=10
