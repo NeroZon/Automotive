@@ -25,6 +25,7 @@ driver .get("https://www.hyrtutorials.com/p/alertsdemo.html");
 	Alert a = driver .switchTo().alert();
 	a.accept();
 	
+	
+	
 }
 }
-o
