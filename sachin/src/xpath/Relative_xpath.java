@@ -24,6 +24,8 @@ public class Relative_xpath {
 			
 			WebElement FN = driver.findElement(By.xpath ("//input[@name= 'firstname']"));
 			
+			// "//input[@Attributename="Attributevalue"]"
+			
 			FN.click();
 			FN.clear();
 			FN.sendKeys("AUTOMATION");

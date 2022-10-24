@@ -25,6 +25,8 @@ public class By_id_Locator {
 			
 			driver .findElement(By.id("confirmBox")).click();
 			
+			// by.id("confirmBox")
+			
 			Alert a = driver .switchTo().alert();
 			
 			Thread.sleep(5000);

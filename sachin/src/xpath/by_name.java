@@ -18,12 +18,12 @@ public class by_name {
 		driver.manage().window().maximize();
 		
 		
- WebElement fn = driver.findElement(By.name("firstname"));
+ WebElement fn = driver.findElement(By.name("firstname")); //by.name("firstname")
  fn.clear();
  fn.sendKeys("Team");
  
 	
-WebElement sn = driver.findElement(By.xpath("//input[@name='lastname']"));
+WebElement sn = driver.findElement(By.xpath("//input[@name='lastname']")); // by
 sn.clear();
 sn.sendKeys("work");
 

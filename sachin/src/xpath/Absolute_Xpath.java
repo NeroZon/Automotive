@@ -22,6 +22,7 @@ public class Absolute_Xpath {
 			
 			
 			WebElement FN = driver.findElement(By.xpath ("/input[@name= 'firstname']"));
+			// "/tagname[@Attributename='Attributevalue']"
 			
 			FN.click();
 			FN.clear();

@@ -42,12 +42,12 @@ WebElement month = driver.findElement(By.name("birthday_month"));
 Select m = new Select(month);
 m.selectByVisibleText("Apr");
 
-WebElement year = driver.findElement(By.id("year"));
+WebElement year = driver.findElement(By.id("year")); // id("year")
 Select y = new Select(year);
 y.selectByIndex(29);
 
 
-WebElement button = driver.findElement(By.className("_8esa"));
+WebElement button = driver.findElement(By.className("_8esa")); //classname("_8esa")
 button.click();
 	}
 

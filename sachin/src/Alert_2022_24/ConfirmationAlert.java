@@ -21,6 +21,7 @@ public class ConfirmationAlert {
 		driver.findElement(By.xpath(""));
 		
 		Alert a = driver.switchTo().alert();
+		a.dismiss();
 	}
 
 }
